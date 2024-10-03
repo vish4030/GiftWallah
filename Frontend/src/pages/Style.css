@@ -1,0 +1,68 @@
+
+/* common css-> utility class */
+.form-group { margin-bottom: 1.5rem; }
+label {font-weight: 500; display: block; margin-bottom: 8px; }
+input:not([type="checkbox"]){padding: 10px;border: 1px solid #ccc;border-radius: 5px;width: 100%;}
+input[type="checkbox"] {margin-right: 10px }
+.error {color: #ff4d4f; font-size: 14px;margin-top: 5px;}
+input:focus {outline: none; border-color: #007bff; box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); }
+
+/* common css-> utility class */
+
+
+/* Login */
+
+
+.login-form{padding: 4rem;}
+.header h2 {font-size: 28px;margin-bottom: 10px;}
+.header p {color: #6c757d; margin-bottom: 1rem;}
+.login-button{transition: background-color 0.3s ease; width: 100%;background:#007bff;color: #fff;}
+.login-button:disabled {background-color: #6c757d; cursor: not-allowed;}
+.login-button:hover:not(:disabled) {background-color: #0056b3;}
+.forgot-password {float: right; font-size: 14px; color: #007bff; cursor: pointer; }
+.forgot-password:hover {text-decoration: underline;}
+
+
+.img{ height: 100%; text-align: center; padding: 15rem 4rem;}
+
+/* Login */
+
+/* Register */
+.signup-form{padding: 4rem;}
+.signup-button{transition: background-color 0.3s ease; width: 100%; background:#007bff;color: #fff;}
+.signup-button:disabled { background-color: #ccc; cursor: not-allowed; }
+.signup-button:hover:not(:disabled) {background-color: #0056b3; }
+
+/* Register */
+
+/* error page */
+.error-page {
+    text-align: center;
+    padding: 50px;
+    color: #333;
+  }
+  
+  .error-page h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .error-page p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .home-link {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-link:hover {
+    background-color: #0056b3;
+  }
+  
+/* error page */
